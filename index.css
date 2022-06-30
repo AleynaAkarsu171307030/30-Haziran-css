@@ -1,0 +1,41 @@
+/*  Class . ile tanımlanır. Birden fazla etikette tanımlanabilir.*/
+/* id # ile tanımlanır. Id 'ler T.C. kimlik numaralarımız gibi, sadece aynı isimli tek bir html etiketinde kullanılabilir*/
+
+
+#first-div {
+border: 2px solid blue;
+width: 300px;
+height: 500px;
+background-color: bisque;
+
+}
+#first-div p{
+   color:aqua; 
+}
+
+
+.two-div-style{
+    border: 3px solid orange;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFbD4B7HqUNrXQR7Nj1xKqd4vm9wJxVmxrtg&usqp=CAU");
+    ;
+    background-repeat: no-repeat;
+    width:500px;
+    height:400px;
+    background-size: 500px 400px;
+
+}
+#three-div-id p{
+    color:tomato;
+}
+.div-radius{
+    border-radius: 30px;
+}
+.text-color{
+    color:rgb(234, 153, 139)
+}
+h1,h3{
+    color:blueviolet;
+}
+.div-radius p{
+    color:red;
+}
